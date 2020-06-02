@@ -1,0 +1,49 @@
+
+```bash
+- __Board\-Game\-Recommendation\-System__
+   - [LICENSE](LICENSE)
+   - [README.md](README.md)
+   - __docs__
+     - [ALS\_model.ipynb](docs/ALS_model.ipynb)
+     - [BoredGames.sketch](docs/BoredGames.sketch)
+     - [SVD\_Recommender\_System.ipynb](docs/SVD_Recommender_System.ipynb)
+     - [Technology Review.pdf](docs/Technology%20Review.pdf)
+     - [Use Case 1.png](docs/Use%20Case%201.png)
+     - [Use Case 2.png](docs/Use%20Case%202.png)
+     - [Use Case 3.1.png](docs/Use%20Case%203.1.png)
+     - [Use Case 3.2.png](docs/Use%20Case%203.2.png)
+     - [Use Case 3.3.png](docs/Use%20Case%203.3.png)
+     - [Use Case 5.png](docs/Use%20Case%205.png)
+     - [component\-specification.md](docs/component-specification.md)
+     - [flowchart.png](docs/flowchart.png)
+     - [functional\-specification.md](docs/functional-specification.md)
+   - __game\_recommender__
+     - [app.py](game_recommender/app.py)
+     - [cold\_start\_rec.py](game_recommender/cold_start_rec.py)
+     - [config.py](game_recommender/config.py)
+     - __data__
+       - [boardgame.db](game_recommender/data/boardgame.db)
+       - [games.csv](game_recommender/data/games.csv)
+       - [sorted\_recommendations.csv](game_recommender/data/sorted_recommendations.csv)
+       - [users.csv](game_recommender/data/users.csv)
+     - __entities__
+       - [\_\_init\_\_.py](game_recommender/entities/__init__.py)
+       - [game.py](game_recommender/entities/game.py)
+     - [form.py](game_recommender/form.py)
+     - [recommender\_parser.py](game_recommender/recommender_parser.py)
+     - __static__
+       - __css__
+         - [forms.css](game_recommender/static/css/forms.css)
+         - [home.css](game_recommender/static/css/home.css)
+         - [style.css](game_recommender/static/css/style.css)
+     - __templates__
+       - [analytics.html](game_recommender/templates/analytics.html)
+       - [bgg\_user.html](game_recommender/templates/bgg_user.html)
+       - [index.html](game_recommender/templates/index.html)
+       - [layout.html](game_recommender/templates/layout.html)
+       - [new\_user.html](game_recommender/templates/new_user.html)
+       - [recommendations.html](game_recommender/templates/recommendations.html)
+       - [user\_type.html](game_recommender/templates/user_type.html)
+   - [list.md](list.md)
+   - [requirements.txt](requirements.txt)
+```
