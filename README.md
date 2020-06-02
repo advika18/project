@@ -1,32 +1,32 @@
 
 ```bash
-- __Board\-Game\-Recommendation\-System__
+- Board-Game-Recommendation-System/
    - LICENSE
    - README.md
-   - __docs__
+   - docs/
      - SVD_Recommender_System.ipynb
      - Technology Review.pdf
      - component-specification.md
      - functional-specification.md
      - ...
-   - __game_recommender__
+   - game_recommender/
      - app.py
      - cold_start_rec.py
      - config.py
-     - __data__
+     - data/
        - boardgame.db
        - games.csv
        - sorted_recommendations.csv
        - users.csv
-     - __entities__
+     - entities/
        - __init__.py
        - game.py
      - form.py
      - recommender_parser.py
-     - __static__
-       - __css__
+     - static/
+       - css/
          - ...
-     - __templates__
+     - templates/
        - ...
    - requirements.txt
 ```
