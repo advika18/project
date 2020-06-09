@@ -33,7 +33,7 @@
        - test_generate_cold_start.py
        - test_recommender_parser.py
        - test_s3_data_download.py
-   - /examples/
+   - examples/
        - setup_guide.md
        - ...
    - requirements.txt
