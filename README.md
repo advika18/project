@@ -1,21 +1,20 @@
 
 ```bash
-- __game_recommender__
    - LICENSE
    - README.md
-   - __docs__
-     - __Sketches__
+   - docs/
+     - Sketches/
      - ALS_model.ipynb
      - Technology Review.pdf
      - component-specification.md
      - flowchart.png
      - functional-specification.md
-   - __game_recommender__
+   - game_recommender/
      - __init__.py
      - app.py
      - cold_start_rec.py
      - config.py
-     - __entities__
+     - entities/
        - __init__.py
        - game.py
      - form.py
@@ -23,18 +22,18 @@
      - generate_cold_start.py
      - recommender_parser.py
      - s3_data_download.py
-     - __static__
-       - __css__
+     - static/
+       - css/
          - ...
-     - __templates__
+     - templates/
        - analytics.html
        - ...
-     - __test__
+     - test/
        - test_cold_start_rec.py
        - test_generate_cold_start.py
        - test_recommender_parser.py
        - test_s3_data_download.py
-   - __examples__
+   - /examples/
        - setup_guide.md
        - ...
    - requirements.txt
