@@ -1,32 +1,43 @@
 
 ```bash
-- Board-Game-Recommendation-System/
-   - LICENSE
-   - README.md
-   - docs/
-     - SVD_Recommender_System.ipynb
-     - Technology Review.pdf
-     - component-specification.md
-     - functional-specification.md
-     - ...
-   - game_recommender/
-     - app.py
-     - cold_start_rec.py
-     - config.py
-     - data/
-       - boardgame.db
-       - games.csv
-       - sorted_recommendations.csv
-       - users.csv
-     - entities/
-       - __init__.py
-       - game.py
-     - form.py
-     - recommender_parser.py
-     - static/
-       - css/
+- __game\_recommender__
+   - [LICENSE](LICENSE)
+   - [README.md](README.md)
+   - __docs__
+     - __Sketches__
+     - [ALS\_model.ipynb](docs/ALS_model.ipynb)
+     - [Technology Review.pdf](docs/Technology%20Review.pdf)
+     - [component\-specification.md](docs/component-specification.md)
+     - [flowchart.png](docs/flowchart.png)
+     - [functional\-specification.md](docs/functional-specification.md)
+   - __game\_recommender__
+     - [\_\_init\_\_.py](game_recommender/__init__.py)
+     - [app.py](game_recommender/app.py)
+     - [cold\_start\_rec.py](game_recommender/cold_start_rec.py)
+     - [config.py](game_recommender/config.py)
+     - __entities__
+       - [\_\_init\_\_.py](game_recommender/entities/__init__.py)
+       - [game.py](game_recommender/entities/game.py)
+     - [form.py](game_recommender/form.py)
+     - [generate\_cold\_db.py](game_recommender/generate_cold_db.py)
+     - [generate\_cold\_start.py](game_recommender/generate_cold_start.py)
+     - [recommender\_parser.py](game_recommender/recommender_parser.py)
+     - [s3\_data\_download.py](game_recommender/s3_data_download.py)
+     - __static__
+       - __css__
          - ...
-     - templates/
+     - __templates__
+       - [analytics.html](game_recommender/templates/analytics.html)
        - ...
-   - requirements.txt
+     - __test__
+       - [test\_cold\_start\_rec.py](game_recommender/test/test_cold_start_rec.py)
+       - [test\_generate\_cold\_start.py](game_recommender/test/test_generate_cold_start.py)
+       - [test\_recommender\_parser.py](game_recommender/test/test_recommender_parser.py)
+       - [test\_s3\_data\_download.py](game_recommender/test/test_s3_data_download.py)
+   - __examples__
+       - [setup\_guide.md](examples/setup_guide.md)
+       - ...
+   - [requirements.txt](requirements.txt)
+   - [setup.py](setup.py)
+   - [environment.yml](environment.yml)
 ```
